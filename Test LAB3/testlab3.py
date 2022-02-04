@@ -21,7 +21,7 @@
 import paho.mqtt.client as mqtt
 import time
 import json
-broker_address="electsut.trueddns.com"  ##dwfwdfvw
+broker_address="electsut.trueddns.com"  
 broker_port=27860
 client = mqtt.Client("B6214197")
 client.connect(broker_address,broker_port)
