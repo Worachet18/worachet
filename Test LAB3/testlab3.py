@@ -23,7 +23,7 @@ import time
 import json
 broker_address="electsut.trueddns.com"  ##dwfwdfvw
 broker_port=27860
-client = mqtt.Client("B6214197") 
+client = mqtt.Client("B6214197")
 client.connect(broker_address,broker_port)
 def on_message(client, userdata, message):
     print("topic = ",message.topic)
