@@ -18,15 +18,7 @@ df = pd.DataFrame({'date': list(d.keys()),
                   'repeated' : list(d.values())})
 
 df = df.sort_values(['date'])
-
 print(df)
-
-
-
-
-
-
-
 ## plot the timeseries data
 plt.ylim([0,100])
 plt.plot_date(x = df['date'], y = df['repeated'])
